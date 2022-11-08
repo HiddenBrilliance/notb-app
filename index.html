@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOB</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Inter+Tight:ital,wght@1,800&display=swap');
+
+        body {
+            background-color: whitesmoke;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .text-container {
+            background-color: white;
+            max-height: 100%;
+            max-width: 100%;
+            padding: 16px;
+        }
+
+        li {
+            color: black;
+        }
+
+        .btn-group-lrg {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Inter Tight', sans-serif;
+        }
+
+
+
+        p {
+            text-align: center;
+
+        }
+
+        /* .text-container */
+    </style>
+
+
+
+
+    <div class="text-container">
+        <h1>Numbers On the Board</h1><br>
+        <div class="btn-group-lrg" role="group" aria-label="Large button group">
+            <button type="button" class="btn btn-outline-dark button" data-position="C">Centers</button>
+            <button type="button" class="btn btn-outline-dark button" data-position="F">Forwards</button>
+            <button type="button" class="btn btn-outline-dark button" data-position="G">Gaurds</button>
+        </div><br>
+        <p><strong> This website is dedicated to the real fans</strong></p>
+
+        <ul class="display-data">
+            <li>
+
+            </li>
+        </ul>
+    </div>
+    <script src="./api/stats.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
